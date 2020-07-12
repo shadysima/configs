@@ -1,15 +1,15 @@
-#        _               _           _                 _     
-#    ___| |__   __ _  __| |_   _ ___(_)_ __ ___   __ _( )___ 
-#   / __| '_ \ / _` |/ _` | | | / __| | '_ ` _ \ / _` |// __|
-#   \__ \ | | | (_| | (_| | |_| \__ \ | | | | | | (_| | \__ \
-#   |___/_| |_|\__,_|\__,_|\__, |___/_|_| |_| |_|\__,_| |___/
-#                          |___/                             
-#         __ _     _                        __ _       
-#        / _(_)___| |__     ___ ___  _ __  / _(_) __ _ 
-#       | |_| / __| '_ \   / __/ _ \| '_ \| |_| |/ _` |
-#       |  _| \__ \ | | | | (_| (_) | | | |  _| | (_| |
-#       |_| |_|___/_| |_|  \___\___/|_| |_|_| |_|\__, |
-#                                                |___/ 
+#            __              __           _                _      
+#      _____/ /_  ____ _____/ /_  _______(_)___ ___  ____ ( )_____
+#     / ___/ __ \/ __ `/ __  / / / / ___/ / __ `__ \/ __ `/// ___/
+#    (__  ) / / / /_/ / /_/ / /_/ (__  ) / / / / / / /_/ / (__  ) 
+#   /____/_/ /_/\__,_/\__,_/\__, /____/_/_/ /_/ /_/\__,_/ /____/  
+#                          /____/                                 
+#       _____      __                        _____      
+#      / __(_)____/ /_     _________  ____  / __(_)___ _
+#     / /_/ / ___/ __ \   / ___/ __ \/ __ \/ /_/ / __ `/
+#    / __/ (__  ) / / /  / /__/ /_/ / / / / __/ / /_/ / 
+#   /_/ /_/____/_/ /_/   \___/\____/_/ /_/_/ /_/\__, /  
+#                                              /____/   
 
 # AUTOSTART
 neofetch
@@ -17,6 +17,8 @@ neofetch
 # USER ADDED ABBREVIATIONS
 abbr --add vfish "nvim ~/.config/fish/config.fish"
 abbr --add vbash "nvim ~/.bashrc"
+abbr --add sfish "source ~/.config/fish/config.fish"
+abbr --add sbash "source ~/.bashrc"
 abbr --add lls "ls -l"
 abbr --add lla "ls -a"
 abbr --add llas "ls -al"
@@ -27,8 +29,13 @@ abbr --add di "sudo dnf install"
 abbr --add ss "sudo systemctl start"
 abbr --add sr "sudo systemctl restart"
 abbr --add se "sudo systemctl enable"
-abbr --add sfish "source ~/.config/fish/config.fish"
-abbr --add sbash "source ~/.bashrc"
+abbr --add cdh "cd ~/"
+abbr --add cdf "cd ~/.config/fish"
+abbr --add cda "cd ~/.config/alacritty"
+abbr --add cdtf "cd /home/nick/.steam/steam/steamapps/common/Team\ Fortress\ 2/tf/"
+abbr --add cdd "cd ~/Downloads"
+abbr --add rmg "rm -rf .git/"
+abbr --add cdlsa "cd ~/.local/share/applications"
 
 
 # USER UPDATED PATH
