@@ -9,3 +9,4 @@ A personal repository open for anyone to use that stores various linux configs
 * Openbox (includes obmenu and tint2 configs)
 * QTile
 * Samba
+* kitty
