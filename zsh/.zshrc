@@ -35,10 +35,14 @@ source $ZSH/oh-my-zsh.sh
 # PATH EXPORTS
 export PATH="$PATH:/sbin:/usr/sbin:/usr/local/sbin:/usr/bin"
 export PATH="$PATH:$HOME/bin:$HOME/bin/noarg"
+export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:/opt/anaconda3/bin"
+export PATH="$PATH:/usr/local/go/bin"
 
 
 # OTHER USER UPDATED ENV VARS
 export EDITOR=nvim
+export BROWSER=firefox
 
 
 # ALIASES
@@ -65,3 +69,4 @@ alias cdlsa="cd ~/.local/share/applications"
 alias lls="ls -l"
 alias lla="ls -a"
 alias llas="ls -al"
+alias vk="nvim ~/.config/kitty/kitty.conf"
