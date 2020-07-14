@@ -3,11 +3,10 @@
 A personal repository open for anyone to use that stores various linux configs
 
 ## LIST OF STORED CONFIGS
-* Alacritty
-* fish shell
-* neovim
-* Openbox (includes obmenu and tint2 configs)
-* QTile
-* Samba
-* kitty
-* zsh shell
+* Alacritty ---> ($HOME/.config)
+* fish shell ---> ($HOME/.config)
+* neovim ---> ($HOME/.config)
+* Openbox (includes obmenu and tint2 configs) ---> ($HOME/.config)
+* QTile ---> ($HOME/.config)
+* kitty ---> ($HOME/.config)
+* zsh shell ---> ($HOME)
