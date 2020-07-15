@@ -17,7 +17,7 @@ export ZSH="/home/nick/.oh-my-zsh"
 
 
 # THEME
-ZSH_THEME="michelebologna"
+ZSH_THEME="bira"
 
 
 # PLUGINS
@@ -53,13 +53,9 @@ alias sfish="source ~/.config/fish/config.fish"
 alias vbash="nvim ~/.bashrc"
 alias sbash="source ~/.bashrc"
 alias cc="clear"
-alias ar="sudo apt remove"
-alias au="sudo apt update"
-alias ai="sudo apt install"
-alias auu="sudo apt update && sudo apt upgrade"
-alias ss="sudo systemctl start"
-alias sr="sudo systemctl restart"
-alias se="sudo systemctl enable"
+alias xr="sudo xbps-remove -R"
+alias xu="sudo xbps-install -Su"
+alias xi="sudo xbps-install -S"
 alias cdh="cd ~/"
 alias cdf="cd ~/.config/fish"
 alias cdd="cd ~/Downloads"
