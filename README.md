@@ -10,3 +10,4 @@ A personal repository open for anyone to use that stores various linux configs
 * QTile ---> ($HOME/.config)
 * kitty ---> ($HOME/.config)
 * zsh shell ---> ($HOME)
+* st (suckless terminal) ---> can go anywhere; preferrably in ($HOME/.config)
