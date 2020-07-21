@@ -104,6 +104,7 @@ static const char *colorname[] = {
 	"magenta3",
 	"cyan3",
 	"gray90",
+	"#242424",
 
 	/* 8 bright colors */
 	"gray50",
@@ -115,7 +116,6 @@ static const char *colorname[] = {
 	"cyan",
 	"white",
 	"#777777",
-	"3c3c3c",
 
 	[255] = 0,
 
@@ -130,7 +130,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
+unsigned int defaultbg = 8;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
@@ -141,14 +141,14 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 88;
-static unsigned int rows = 26;
+static unsigned int cols = 90;
+static unsigned int rows = 32;
 
 /*
  * Default colour and shape of the mouse cursor
