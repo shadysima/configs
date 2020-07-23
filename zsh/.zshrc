@@ -11,7 +11,7 @@
 #   /___/____/_/ /_/   \___/\____/_/ /_/_/ /_/\__, /  
 #                                            /____/   
 
-					 
+
 # PATH TO oh-my-zsh INSTALLATION
 export ZSH="/home/nick/.oh-my-zsh"
 
@@ -25,6 +25,9 @@ plugins=(
 	git
 	zsh-syntax-highlighting
 	z
+	golang
+	rust
+	cargo
 )
 
 
@@ -34,10 +37,12 @@ source $ZSH/oh-my-zsh.sh
 
 # PATH EXPORTS
 export PATH="$PATH:/sbin:/usr/sbin:/usr/local/sbin:/usr/bin"
-export PATH="$PATH:$HOME/bin:$HOME/bin/noarg"
+export PATH="$PATH:$HOME/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="$PATH:/opt/anaconda3/bin"
 export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/opt/anaconda3/bin"
+export PATH="$PATH:/opt/jdk-14.0.2/bin"
+export PATH="$PATH:/opt/jre1.8.0_261/bin"
 
 
 # OTHER USER UPDATED ENV VARS
@@ -48,21 +53,30 @@ export BROWSER=firefox
 # ALIASES
 alias vz="nvim ~/.zshrc"
 alias sz="source ~/.zshrc"
-alias vfish="nvim ~/.config/fish/config.fish"
-alias sfish="source ~/.config/fish/config.fish"
-alias vbash="nvim ~/.bashrc"
-alias sbash="source ~/.bashrc"
 alias cc="clear"
-alias xr="sudo xbps-remove -R"
-alias xu="sudo xbps-install -Su"
-alias xi="sudo xbps-install -S"
+alias pr="sudo pacman -Rs" # pacman remove (pkg + dependencies)
+alias pu="sudo pacman -Syu" # pacman upgrade
+alias pi="sudo pacman -S" # pacman install
+alias pil="sudo pacman -U" # pacman install local
+alias ps="sudo pacman -Ss" # pacman search
+alias pinfo="sudo pacman -Qi" # pacman info (about a certain pkg)
+alias po="sudo pacman -Qtd" # pacman orphan (queries orphaned packages)
+alias pro="sudo pacman -Rsn $(pacman -Qtdq)" # pacman remove orphans
+alias se="sudo systemctl enable"
+alias ss="sudo systemctl start"
+alias sr="sudo systemctl restart"
+alias sst="sudo systemctl status"
 alias cdh="cd ~/"
-alias cdf="cd ~/.config/fish"
-alias cdd="cd ~/Downloads"
-alias cdk="cd ~/.config/kitty"
+alias cdd="cd ~/downloads"
+alias cdc="cd ~/.config"
+alias cds="cd ~/source"
+alias cdo="cd /opt"
 alias rmg="rm -rf .git/"
 alias cdlsa="cd ~/.local/share/applications"
 alias lls="ls -l"
 alias lla="ls -a"
 alias llas="ls -al"
-alias vk="nvim ~/.config/kitty/kitty.conf"
+alias n="neofetch"
+alias vst="nvim ~/.config/st/config.h"
+alias vd="nvim ~/.config/dwm/config.def.h"
+alias shutdown="shutdown now"
