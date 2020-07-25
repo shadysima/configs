@@ -9,7 +9,6 @@ base
 binutils
 bison
 breeze
-celluloid
 cinnamon
 cmake
 code
@@ -17,6 +16,7 @@ discord
 dmenu
 evince
 fakeroot
+feh
 figlet
 file
 findutils
@@ -52,10 +52,10 @@ m4
 make
 man-db
 man-pages
-mpv
 neofetch
 neovim
 networkmanager
+nitrogen
 nyx
 obs-studio
 openssh
@@ -64,7 +64,9 @@ papirus-icon-theme
 patch
 pcmanfm
 pkgconf
+preload
 qalculate-gtk
+qtile
 ranger-git
 screenkey
 sed
@@ -74,6 +76,7 @@ texinfo
 tor
 torbrowser-launcher
 transmission-gtk
+vlc
 w3m
 wget
 which
@@ -82,6 +85,7 @@ xclip
 xf86-input-synaptics
 xf86-video-intel
 xorg-server
+xorg-xinit
 xorg-xinput
 ytop
 zip
