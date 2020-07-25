@@ -9,5 +9,5 @@ A personal repository open for anyone to use that stores various linux configs
 * Openbox (includes obmenu and tint2 configs) ---> ($HOME/.config)
 * QTile ---> ($HOME/.config)
 * kitty ---> ($HOME/.config)
-* zsh shell ---> ($HOME)
+* zsh shell + script for installing oh my zsh (requires curl) ---> ($HOME)
 * st (suckless terminal) ---> can go anywhere; preferrably in ($HOME/.config)
